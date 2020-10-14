@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Commissioner', sans-serif;
+    background-color: #0A122A;
+}
+
+.header {
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.header>h1 {
+    font-size: 3.2rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: #FBFAF8;
+}
+.wrapper {
+    display: grid;
+    grid-template-rows: repeat(6, 8rem);
+    grid-template-columns: repeat(5, 8rem);
+    grid-gap: 10px;
+    padding: 6rem 0;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.wrapper--result {
+    grid-area: 1 / 1 / 2 / -1;
+    font-size: 3.5rem;
+    color: #698F3F;
+    text-align: center;
+    height: 8rem;
+    margin-top: 3rem;
+}
+.wrapper--deleteAll {
+    grid-area: 2 / 5 / 3 / -1 ;
+}
+.wrapper--backspace {
+    grid-area: 2 / 4 / 3 / 5 ;
+}
+.wrapper--plus {
+    grid-area: 3 / 2 / 4 / 3;
+}
+.wrapper--divide {
+    grid-area: 2 / 2 / 3 / 3;
+}
+.wrapper--minus {
+    grid-area: 4 / 2 / 5 / 3;
+}
+.wrapper--times {
+    
+}
+.wrapper--equal {
+    grid-area: 3 / 1 / 5 / 2;
+    height: 16rem!important;
+    background-color: #698F3F;
+}
+.wrapper--one {
+    grid-area: 3 / 3 / 4 / 4;
+}
+.wrapper--two {
+    grid-area: 3 / 4 / 4 / 5;
+}
+.wrapper--three {
+    grid-area: 3 / 5 / 4 / -1;
+}
+.wrapper--four {
+    grid-area: 4 / 3 / 5 / 4;
+}
+.wrapper--five {
+    grid-area: 4 / 4 / 5 / 5;
+}
+.wrapper--six {
+    grid-area: 4 / 5 / 5 / -1;
+}
+.wrapper--seven {
+    grid-area: 5 / 3 / 6 / 4 ;
+}
+.wrapper--eight {
+    grid-area: 5 / 4 / 6 / 5 ;
+}
+.wrapper--nine {
+    grid-area: 5 / 5 / 6 / -1 ;
+}
+.wrapper--zero {
+    grid-area: 6 / 5 / 7 / -1 ;
+}
+.wrapper--sin {
+    grid-area: 6 / 1 / 7 / 2 ;
+}
+.wrapper--cos {
+    grid-area: 6 / 2 / 7 / 3 ;
+}
+.wrapper--cot {
+    grid-area: 6 / 4 / 7 / 5 ;
+}
+.wrapper--tan {
+    grid-area: 6 / 3 / 7 / 4 ;
+}
+.wrapper--log {
+    grid-area: 5 / 1 / 6 / 2;
+}
+.wrapper--mod {
+    grid-area: 2 / 1 / 3 / 2;
+}
+.wrapper--dot {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+button {
+    font-family: inherit;
+    outline: none;
+    height: 8rem;
+    cursor: pointer;
+    background-color: #e9d6d5ef;
+    opacity: .9;
+    border: none;
+    border-radius: 2px;
+    font-size: 2.5rem;
+    transition: all .3s ease-in-out;
+}
+button:hover {
+    background-color: #698d43;
+    color: #E7DECD;
+    font-size: 2.8rem;
+    transform: scale(1.2);
+    transition: all .3s;
+}
+
+img {
+    height: 3.2rem;
+}
