@@ -1,2 +1,2 @@
 # Calculer
-A simple calculator for daily usage 
+##### A simple but useful calculator with `HTML5`, `CSS3` and `JS` .
