@@ -16,7 +16,7 @@
 *****
 
 ## Code
-      I use HTML5, CSS3 and JS ( Pure af =) ) in this project and built in method (Like Math Object) and no other libraries . . . 
+      I use HTML5, CSS3 and JS ( Pure af =) ) in this project [no other libraries] . . . 
 
 > I may update *Calculer* in over the time and make this even more useful . . .
 
