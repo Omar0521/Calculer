@@ -2,7 +2,7 @@
 # Calculer
     
 
-*Calculer* is the calculator in browser for daily usage that contains **4 main actions** such as `+, -, *, /`; and many other cool things like :
+*Calculer* is the calculator in browser for daily usage that contains **4 main actions** (`+, -, *, /`); and many other cool things like :
     
 
 + *trigonometric functions* `(sin, cos, tan, cot)`
