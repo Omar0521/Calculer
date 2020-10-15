@@ -20,7 +20,7 @@ const toRadian = (degree) => {
   return degree * (Math.PI / 180);
 };
 
-// Delete all
+// Delete all output
 document.querySelector('.wrapper--deleteAll').addEventListener('click', () => {
   if (result.innerText) {
     result.innerText = '';
