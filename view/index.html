@@ -12,7 +12,9 @@
 <body>
     <header class="header">
         <h1>Calculer &mdash; Calculator With JS</h1>
+        <p class="operand"></p>
     </header>
+
     <main class="wrapper">
         <div class="wrapper--result"></div>
         <button class="wrapper--zero" id="number--0" value="0">0</button>
@@ -28,17 +30,17 @@
         <button class="wrapper--deleteAll">C</button>
         <button class="wrapper--backspace"><img src="../images/backspace.png" alt="Del"></button>
         <button class="wrapper--plus" value="+">&plus;</button>
-        <button class="wrapper--divide">&divide;</button>
-        <button class="wrapper--minus">&minus;</button>
-        <button class="wrapper--times">&times;</button>
-        <button class="wrapper--sin">sin</button>
-        <button class="wrapper--cos">cos</button>
-        <button class="wrapper--cot">cot</button>
-        <button class="wrapper--tan">tan</button>
-        <button class="wrapper--log">log</button>
+        <button class="wrapper--divide" value="/">&divide;</button>
+        <button class="wrapper--minus" value="-">&minus;</button>
+        <button class="wrapper--times" value="*">&times;</button>
+        <button class="wrapper--sin" value="Sin">sin</button>
+        <button class="wrapper--cos" value="Cos">cos</button>
+        <button class="wrapper--cot" value="Cot">cot</button>
+        <button class="wrapper--tan" value="Tan">tan</button>
+        <button class="wrapper--log" value="log">log</button>
         <button class="wrapper--equal">&equals;</button>
-        <button class="wrapper--mod">%</button>
-        <button class="wrapper--dot">&CenterDot;</button>
+        <button class="wrapper--mod" value="%">%</button>
+        <button class="wrapper--dot" value=".">&CenterDot;</button>
     </main>
     <script src="../src/app.js"></script>
 </body>

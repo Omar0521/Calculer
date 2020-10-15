@@ -22,17 +22,23 @@ body {
 }
 
 .header>h1 {
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     font-weight: 300;
     letter-spacing: 5px;
     color: #FBFAF8;
+}
+
+.operand {
+    color: #E7DECD;
+    margin-top: 1rem;
+    font-size: 3rem;
 }
 .wrapper {
     display: grid;
     grid-template-rows: repeat(6, 8rem);
     grid-template-columns: repeat(5, 8rem);
     grid-gap: 10px;
-    padding: 6rem 0;
+    padding: 5rem 4re 1rem 4rem;
     align-items: center;
     top: 50%;
     left: 50%;
@@ -42,11 +48,11 @@ body {
 
 .wrapper--result {
     grid-area: 1 / 1 / 2 / -1;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     color: #698F3F;
     text-align: center;
     height: 8rem;
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 .wrapper--deleteAll {
     grid-area: 2 / 5 / 3 / -1 ;
